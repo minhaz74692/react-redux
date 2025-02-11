@@ -25,6 +25,11 @@ const PanoramaViewer = ({ image }) => {
       panorama: "https://pannellum.org/images/alma.jpg", // Change this to your 360 image URL
       autoLoad: true,
       compass: true,
+
+      autoRotate: true, // Enable auto-rotation
+      autoRotateSpeed: 50, // Rotation speed (positive value for clockwise, negative for counter-clockwise)
+      autoRotateInactivityDelay: 100, // Delay before rotation starts (in ms)
+
       hotSpots: [
         {
           pitch: 10,
