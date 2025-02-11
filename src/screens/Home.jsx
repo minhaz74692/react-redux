@@ -10,7 +10,7 @@ function HomePage() {
   return (
     <>
       {/* <img src={testImage} width={400} /> */}
-      <ThreeSixtyViewer imageUrl="https://pannellum.org/images/alma.jpg" />
+      {/* <ThreeSixtyViewer imageUrl="https://pannellum.org/images/alma.jpg" /> */}
       {/* <ThreeSixtyViewer imageUrl={testImage} /> */}
       {/* <MovieCard movie={{ name: "Terminator" }} />
       <MovieCard movie={{ name: "Dictator" }} />
@@ -18,7 +18,7 @@ function HomePage() {
       {/* <Counter /> */}
       {/* <Status /> */}
 
-      {/* <PanoramaViewer image={testImage} /> */}
+      <PanoramaViewer image={testImage} />
     </>
   );
 }
